@@ -7,6 +7,7 @@ class CreateResources < ActiveRecord::Migration[7.2]
       t.text :body
       t.text :chapters
       t.text :notes
+      t.string :cover_image
 
       t.timestamps
     end

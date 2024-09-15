@@ -7,6 +7,7 @@ one:
   body: MyText
   chapters: MyText
   notes: MyText
+  cover_image: MyString
 
 two:
   title: MyString
@@ -15,3 +16,4 @@ two:
   body: MyText
   chapters: MyText
   notes: MyText
+  cover_image: MyString

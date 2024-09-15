@@ -65,6 +65,6 @@ class ResourcesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def resource_params
-      params.require(:resource).permit(:title, :url, :synopsis, :body, :chapters, :notes)
+      params.require(:resource).permit(:title, :url, :synopsis, :body, :chapters, :notes, :cover_image)
     end
 end

@@ -16,6 +16,7 @@ class ResourcesTest < ApplicationSystemTestCase
 
     fill_in "Body", with: @resource.body
     fill_in "Chapters", with: @resource.chapters
+    fill_in "Cover image", with: @resource.cover_image
     fill_in "Notes", with: @resource.notes
     fill_in "Synopsis", with: @resource.synopsis
     fill_in "Title", with: @resource.title
@@ -32,6 +33,7 @@ class ResourcesTest < ApplicationSystemTestCase
 
     fill_in "Body", with: @resource.body
     fill_in "Chapters", with: @resource.chapters
+    fill_in "Cover image", with: @resource.cover_image
     fill_in "Notes", with: @resource.notes
     fill_in "Synopsis", with: @resource.synopsis
     fill_in "Title", with: @resource.title
